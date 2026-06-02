@@ -1,2 +1,114 @@
 # my_website
-A website to describe my basic information
+# A website to describe my basic information
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张昕烨 - 轮机2501班</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .class-info {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-top: 8px;
+        }
+        .section {
+            margin: 25px 0;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 12px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin: 8px 0;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        li {
+            margin: 6px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name">张昕烨</div>
+            <div class="class-info">轮机工程专业 | 轮机2501班</div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">个人简介</div>
+            <p>大家好，我是张昕烨，来自轮机2501班。性格开朗，做事认真负责，热爱轮机工程专业，积极学习专业知识与实践技能，注重团队合作与自我提升。</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">专业学习</div>
+            <ul>
+                <li>主修：轮机工程相关课程</li>
+                <li>学习态度端正，目标明确</li>
+                <li>愿意钻研船舶机械、动力系统等专业内容</li>
+                <li>积极参与实验、实训等实践环节</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">兴趣爱好</div>
+            <ul>
+                <li>运动健身、球类运动</li>
+                <li>科技数码、机械结构</li>
+                <li>阅读、旅行</li>
+                <li>学习新技能、提升综合能力</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">个人目标</div>
+            <p>扎实掌握轮机工程专业技能，培养良好的职业素养，未来成为一名专业、可靠、具备实践能力的轮机工程从业者，不断进步，不负韶华。</p>
+        </div>
+
+        <div class="footer">
+            © 2025 张昕烨 | 轮机2501班 个人主页
+        </div>
+    </div>
+</body>
+</html>
